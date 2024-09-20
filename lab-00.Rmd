@@ -47,19 +47,19 @@ p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+*The size of team members favourite number*
 
 ### Exercises 19
 
 Change the text of the plot title and axis labels.
 
 ```{r labelled-bar-plot}
-p1 + labs(x = "Insert text here", 
-          y = "Insert text here",
-          title = "Insert text here")
+p1 + labs(x = "Team member Github username", 
+          y = "favourite number",
+          title = "Size of favourite number")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+*Labs allows you to add various labels*
 
 ### Exercise 20
 
@@ -69,4 +69,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+*Pie Chart*
